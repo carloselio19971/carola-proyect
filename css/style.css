@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.cabecera-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+
+.cabecera-imagen img {
+    margin-top: 50px;
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.texto-cabecera h1{
+    margin-top: 40px;
+    font-size: 25px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+.texto-cabecera p {
+    background-color:yellow;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    
+    
+}
+
+.cta-button{
+    display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: black;
+            background-color: #FFFFFF;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            
+}
+
+
+.cta-button img {
+    margin-left: 10px;
+    height: 24px; /* Ajusta la altura según sea necesario */
+}
+
+.texto-titulo h2{
+    color:white;
+    margin-top: 40px;
+    font-size: 25px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+.descubre-beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-titulo-beneficios{
+    text-align: center;    
+    color:#90EE90;
+}
+
+.tabla-beneficios{
+    padding-top:20px;
+    background-color: white;
+  
+   
+}
+
+.beneficio{
+   
+    margin: 20px;
+    border-bottom: 4px solid green;
+}
+
+.beneficio p span {
+    color:green;
+    font-weight: bold;
+}
+
+.final-beneficios{
+    background-color: yellow;
+}
+
+
+/* Estilos para pantallas más grandes */
+@media (min-width: 600px) {
+    header {
+        padding: 20px;
+    }
+    
+    nav a {
+        margin: 0 15px;
+    }
+}
